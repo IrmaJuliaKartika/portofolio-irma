@@ -53,14 +53,27 @@
       }
 
       /* HERO */
-      header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 80px 10%;
-        background: linear-gradient(135deg, #f7f1e6, #e6dbc8);
-        flex-wrap: wrap;
-      }
+     header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #f7f1e6, #e6dbc8);
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 320px;
+}
+
+header img {
+  width: 420px;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
       .hero-text {
         max-width: 620px;
       }
@@ -481,3 +494,4 @@
     </script>
   </body>
 </html>
+
